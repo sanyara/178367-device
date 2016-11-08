@@ -5,6 +5,7 @@
         <meta name="format-detection" content="telephone=no">
         <title>Девайс</title>
         <link href="css/style.min.css" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
     </head>
     <body>
         <header class="page-header">
@@ -18,10 +19,10 @@
                             <button class="main-nav__search-btn" type="submit">Найти</button>
                         </form>
                     </li>
-                    <li class="main-nav__user-item  main-nav__user-item--login"><a class="main-nav__user-login" href="#" title="Войти">Войти</a></li>
-                    <li class="main-nav__user-item  main-nav__user-item--logout  main-nav__user-item--login-in"><a class="main-nav__user-logout" href="#" title="Выйти">Выйти</a></li>
-                    <li class="main-nav__user-item"><a class="main-nav__user-compare" href="#" title="Сравнить">Сравнить</a></li>
-                    <li class="main-nav__user-item  main-nav__user-item--cart"><a class="main-nav__user-cart" href="#" title="Корзина">Корзина</a></li>
+                    <li class="main-nav__user-item  main-nav__user-item--login"><a class="main-nav__user-login  sprite-icon" href="#" title="Войти">Войти</a></li>
+                    <li class="main-nav__user-item  main-nav__user-item--logout  main-nav__user-item--login-in"><a class="main-nav__user-logout  sprite-icon" href="#" title="Выйти">Выйти</a></li>
+                    <li class="main-nav__user-item"><a class="main-nav__user-compare  sprite-icon" href="#" title="Сравнить">Сравнить</a></li>
+                    <li class="main-nav__user-item  main-nav__user-item--cart"><a class="main-nav__user-cart  sprite-icon" href="#" title="Корзина">Корзина</a></li>
                 </ul>
                 <ul class="main-nav__items">
                     <li class="main-nav__item  main-nav__item--catalog">
@@ -175,9 +176,9 @@
                 <h2 class="information__title">Контакты</h2>
                 <p class="information__text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
                 <div class="information__map  js-open-map">
-                    <img src="img/map.jpg" alt="map" width="560" height="222">
+                    <a href="big-map.html"><img src="img/map.jpg" alt="map" width="560" height="222"></a>
                 </div>
-                <a class="btn  btn--write-us  btn--information" href="#">Напишите нам</a>
+                <a class="btn  btn--write-us  btn--information" href="feedback.html">Напишите нам</a>
             </div>
         </div>
         <footer class="page-footer">
@@ -193,19 +194,19 @@
                         <a class="page-footer__nav-item" href="#">Контакты</a>
                     </div>
                     <div class="social">
-                        <a class="social__link  social__link--facebook" href="#">facebook</a>
-                        <a class="social__link  social__link--instagram" href="#">instagram</a>
-                        <a class="social__link  social__link--twitter" href="#">twitter</a>
+                        <a class="social__link  social__link--facebook  sprite-icon" href="#">facebook</a>
+                        <a class="social__link  social__link--instagram  sprite-icon" href="#">instagram</a>
+                        <a class="social__link  social__link--twitter  sprite-icon" href="#">twitter</a>
                     </div>
                 </div>
                 <div class="page-footer__right-column">
                     <div class="page-footer__auth">
-                        <a class="page-footer__auth-item  page-footer__auth-item--login" href="#">Войти</a>
-                        <a class="page-footer__auth-item  page-footer__auth-item--compare" href="#">Сравнить</a>
-                        <a class="page-footer__auth-item  page-footer__auth-item--cart" href="#">Корзина</a>
+                        <a class="page-footer__auth-item  page-footer__auth-item--login  sprite-icon" href="#">Войти</a>
+                        <a class="page-footer__auth-item  page-footer__auth-item--compare  sprite-icon" href="#">Сравнить</a>
+                        <a class="page-footer__auth-item  page-footer__auth-item--cart  sprite-icon" href="#">Корзина</a>
                     </div>
                     <div class="page-footer__tel">Тел.: +7 (495) 495-95-95</div>
-                    <a class="page-footer__htmlacademy" href="#"></a>
+                    <a class="page-footer__htmlacademy  sprite-icon" href="#"></a>
                 </div>
             </div>
         </footer>
